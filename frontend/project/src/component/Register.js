@@ -22,7 +22,7 @@ export default function Register() {
     return ;
     }
     
-     await  axios.post('http://localhost:5000/register' , {
+     await  axios.post('https://puzzlegame1.onrender.com/register' , {
            name ,
             email , 
              password
