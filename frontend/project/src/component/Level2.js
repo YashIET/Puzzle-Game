@@ -34,7 +34,7 @@ function Level2() {
 
     if (level === true || localStorage.getItem('level2')) {
       localStorage.setItem('level2' , 'completed')
-      await  axios.post('http://localhost:5000/level' , {
+      await  axios.post('https://puzzlegame1.onrender.com/level' , {
            name ,
             email , 
              findlevel
