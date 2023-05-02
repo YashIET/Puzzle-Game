@@ -20,7 +20,7 @@ function Login() {
      console.log("auth")
   console.log(auth);
    
-      let result = await axios.post('http://localhost:5000/login' , {
+      let result = await axios.post('https://puzzlegame1.onrender.com/login' , {
         email, 
         password
 
